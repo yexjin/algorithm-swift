@@ -40,15 +40,5 @@ if (bottle >= k) {
 
 print(result)
 
-//var result: Int = 0
-//
-//if(two - n >= k) {
-//    result = two - n
-//} else {
-//    result = -1
-//}
-//
-//print(result)
-
 
 
