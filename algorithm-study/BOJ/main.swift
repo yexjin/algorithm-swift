@@ -1,42 +1,27 @@
-var arra = [[Int]]()
-var arrb = [[Int]]()
+// 2822
 
-var inputs = readLine()!.split(separator: " ").map(){Int(String($0))!}
-let n = inputs[0]
-let m = inputs[1]
+var arr: Array<Int> = []
 
-for _ in 1...n {
-    let input = readLine()!.split(separator: " ").map(){Int(String($0))!}
-    arra.append(input)
+for _ in 0..<8 {
+    let score = Int(readLine()!)!
+    arr.append(score)
 }
 
-inputs = readLine()!.split(separator: " ").map(){Int(String($0))!}
-let j = inputs[0]
-let k = inputs[1]
+var sorted_arr = arr.sorted(by: >)
 
-for _ in 1...j {
-    let input = readLine()!.split(separator: " ").map(){Int(String($0))!}
-    arrb.append(input)
+var result = 0
+for i in 0..<5 {
+    result += sorted_arr[i]
 }
 
-var temp = 0
-var subresult: Array<Int> = []
-var result = [[Int]]()
-for x in 0...n-1 {
-    for y in 0...k-1 {
-        for z in 0...m-1 {
-            temp += arra[x][z] * arrb[z][y]
-        }
-        subresult.append(temp)
-        temp = 0
-    }
-    result.append(subresult)
-    subresult = []
+print(result)
+var result_idx: Array<Int> = []
+for i in 0..<5 {
+    result_idx.append(Int(arr.index(of: sorted_arr[i])!)+1)
 }
 
-for i in 0..<n {
-    for j in 0..<k {
-        print(result[i][j], terminator: " ")
-    }
-    print()
+result_idx = result_idx.sorted(by: <)
+
+for i in 0..<5 {
+    print(result_idx[i], terminator: " ")
 }
