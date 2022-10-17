@@ -66,6 +66,7 @@
 		03FC9FEE28FD0AC600177A5A /* 2822.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2822.swift; sourceTree = "<group>"; };
 		03FC9FEF28FD0E2C00177A5A /* 3049.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3049.swift; sourceTree = "<group>"; };
 		03FC9FF028FD130300177A5A /* 2535F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2535F.swift; sourceTree = "<group>"; };
+		03FC9FF128FD187A00177A5A /* 1789.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1789.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +132,7 @@
 				03FC9FEE28FD0AC600177A5A /* 2822.swift */,
 				03FC9FEF28FD0E2C00177A5A /* 3049.swift */,
 				03FC9FF028FD130300177A5A /* 2535F.swift */,
+				03FC9FF128FD187A00177A5A /* 1789.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
