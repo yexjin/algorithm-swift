@@ -1,3 +1,4 @@
+// 별 찍기 - 19
 //let n = Int(readLine()!)!
 //
 //var l = 4*n-3
