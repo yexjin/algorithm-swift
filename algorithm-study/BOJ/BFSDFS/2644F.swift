@@ -75,7 +75,7 @@ func bfs(v: Int) {
     }
 }
 
-bfs(v: check[0])
+dfs(v: check[0])
 
 if result == 0 {
     print(-1)
