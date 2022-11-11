@@ -56,6 +56,7 @@
 		038B858A28EBB619004D1D93 /* 1259.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1259.swift; sourceTree = "<group>"; };
 		038B858D28EBCEAE004D1D93 /* 2798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2798.swift; sourceTree = "<group>"; };
 		039173E029147E8D003C6D59 /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
+		03998001291DF47D00C0C63A /* 점프와순간이동.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "점프와순간이동.swift"; sourceTree = "<group>"; };
 		03A2144C29136F8D00025B0E /* 2538.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2538.swift; sourceTree = "<group>"; };
 		03B29DE22903822D0049ADB6 /* 10994.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10994.swift; sourceTree = "<group>"; };
 		03B29DE629038B9C0049ADB6 /* 17478.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17478.swift; sourceTree = "<group>"; };
@@ -230,6 +231,7 @@
 				03C517432902498000AF490A /* 땅따먹기.swift */,
 				0362D3B92914ACA70066E853 /* [1차] 캐시.swift */,
 				0362D3BA2914B0090066E853 /* 거리두기 확인하기F.swift */,
+				03998001291DF47D00C0C63A /* 점프와순간이동.swift */,
 			);
 			path = Lv2;
 			sourceTree = "<group>";
